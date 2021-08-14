@@ -47,18 +47,13 @@ img {
   height: auto;
   background-color: #BCBCBC;
 }
-.img-fondo img{
+.img-fondo{
   max-width: 30%;
   height: auto;
 }
 
-a{
+.lista{
   text-decoration-line: none;
   color: whitesmoke;
   text-shadow: 3px 3px 1px black;
-}
-ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
 }
