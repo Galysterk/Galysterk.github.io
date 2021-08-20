@@ -1,43 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-MX">
   <head>
     <meta charset="utf-8">
-    <title>Mi página de prueba</title>
+    <title>TrickSS</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,400;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,400;1,100;1,200&display=swap" rel="stylesheet">
   </head>
   <body>
-    <ul class="menu">
+    <header>
+      <h1 class="titulo">TrickSS</h1>
+    </header>
+    <nav>
+      <ul class="menu">
         <li><a class="lista" href="index.html">Home</a></li>
         <li><a class="lista" href="projects.html">Projects</a></li>
         <li><a class="lista" href="pictures.html">Pictures</a></li>
         <li><a class="lista" href="social.html">Social</a></li>
-    </ul>
-    <div class="titulo">
-      <h1 class="titulo-1">Mi Persona</h1>
-    </div>
-    <div class="cuerpo">
-        <img class="img-fondo" src="images\isaac.png" alt="thebindingofisaac">
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <img class="img-fondo" src="images/isaac.png" alt="Isaac de The Binding of Isaac">
         <p>Al dar click en la imagen comenzara a cambiar junto con el nombre de dicha imagen el cual se encuentra arriba.</p>
-      <p>El siguiente boton mostrara un cuadro en el que puedes escribir tu nobmre. Al aceptar el nombre escrito se mostrara en el Titulo arriba de la imagen</p>
-      <button>Cambiar de usuario</button>
-      <p>Me llamo <strong>Yolk</strong>.</p>
-      <p>Esta pagina es un prototipo. <br>Para la creacion de esta pagina estoy haciendo el uso de un 
-        <a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web"><strong>--&gt; HTML &lt;--</strong></a> que es un lenguaje de marcado.</p>
-      <p>Estos lenguajes se veran en el transcurso de esta pagina que estoy creado:</p>
-      <ul>
-        <li><a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">
-          <strong>HTML</strong></a> que es Lenguaje de Marcado de Hipertexto</li>
-        <li><a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics">
-          <strong>CSS</strong></a> que es Hojas de Estilo de Cascada</li>
-        <li><a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics">
-          <strong>JS</strong></a> que es JavaScript</li>
-    </ul>
-    <p><a class="lista" href="mailto:best-player09@hotmail.com"><strong>Enviar</strong></a> comentarios al desarrollador.</p>
-    </div>
-    <script src="scripts/main.js">
-    </script>
+        <p>El siguiente boton mostrara un cuadro en el que puedes escribir tu nobmre. Al aceptar el nombre escrito se mostrara en el Titulo arriba de la imagen</p>
+        <button>Cambiar de usuario</button>
+        <p>Me llamo <strong>Yolk</strong>.</p>
+        <p>Esta pagina es un prototipo. <br>Para la creacion de esta pagina estoy haciendo el uso de un 
+          <a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web"><strong>--&gt; HTML &lt;--</strong></a> que es un lenguaje de marcado.</p>
+        <p>Estos lenguajes se veran en el transcurso de esta pagina que estoy creado:</p>
+        <ul>
+          <li><a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">
+            <abbr title="Lenguaje de Marcado de Hipertexto">HTML</abbr></a></li>
+          <li><a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics">
+            <abbr title="Hojas de Estilo de Cascada">CSS</abbr></a></li>
+          <li><a class="lista" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics">
+            <abbr title="JavaScript">JS</abbr></a></li>
+        </ul>
+      </article>
+      <aside>
+        <p><a class="lista" href="mailto:best-player09@hotmail.com"><strong>Enviar</strong></a> comentarios al desarrollador.</p>
+      </aside>
+    </main>
+    <footer>
+      <p>©Copyright 2022 de nadie. Todos los derechos revertidos.</p>
+    </footer>
+    <!--<script src="scripts/main.js">
+    </script>-->
   </body>
 </html>

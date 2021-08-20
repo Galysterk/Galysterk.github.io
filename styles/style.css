@@ -4,21 +4,19 @@ html {
 }
 body{
   background-color: black;
-  margin: 30px 200px 30px 200px;
+  margin: 20px 100px 20px 100px;
   border: 5px solid #7A7A7A;
   background-image: url(https://wallpaperchat.com/walls/full/d/1/8/1102652.jpg);
   background-size: 100%;
 
 }
-.titulo{
+header .titulo{
   background-color: #565656;
   margin: 25px;
-}
-.titulo-1{
   padding: 5px;
   border: 5px solid #7A7A7A;
 }
-.cuerpo{
+main, footer{
   background-color: #565656;
   margin: 25px;
   border: 5px solid #7A7A7A;
@@ -32,7 +30,7 @@ h1 {
   color: whitesmoke;
   text-shadow: 3px 3px 1px black;
 }
-p, li {
+p, li, dl{
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
@@ -43,8 +41,8 @@ img {
   display: block;
   margin: 0 auto;
   border: 5px solid #7A7A7A;
-  max-width: 100%;
-  height: auto;
+  width: 200px;
+  height: 171px;
   background-color: #BCBCBC;
 }
 .img-fondo{
@@ -56,4 +54,17 @@ img {
   text-decoration-line: none;
   color: whitesmoke;
   text-shadow: 3px 3px 1px black;
+}
+/*.menu{
+  background-color: #565656;
+  margin: 25px;
+  border: 5px solid #7A7A7A;
+  padding: 5px;
+}*/
+.menu li{
+  display: inline;
+  background-color: #565656;
+  padding: 10px;
+  margin: 0;
+  border: 5px solid #7A7A7A;
 }

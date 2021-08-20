@@ -20,7 +20,7 @@ function multiplica(num1,num2) {
 document.querySelector('html').onclick = function() {
     alert('¡Ouch! ¡Deja de pincharme!');
 }*/
-let miImage = document.querySelector('img');
+/*let miImage = document.querySelector('img');
 let personaje = document.querySelector('h1');
 
 miImage.onclick = function () {
@@ -96,4 +96,4 @@ else {
 
 miBoton.onclick = function() {
     estableceNombreUsuario();
-}
+}*/
